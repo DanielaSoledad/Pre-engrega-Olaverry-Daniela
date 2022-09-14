@@ -68,7 +68,22 @@ color: white
     color: white;
 }
 
+.foto {
+    overflow: hidden;
+    transition: all 400ms ease;
+}
+
 .foto:hover {
     transform: scale(1.15);
-    transition: 1s;
+    transition: 0.5s;
+}
+
+.logo {
+    overflow: hidden;
+    transition: all 400ms ease;
+}
+
+.logo:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
 }
